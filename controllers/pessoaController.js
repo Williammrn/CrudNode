@@ -1,4 +1,3 @@
-import db from '../database/db.js';
 import * as pessoaModel from '../models/pessoaModel.js';
 
 export const createPerson = async (req, res) => {

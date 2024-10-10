@@ -1,5 +1,5 @@
 // models/pessoaModel.js
-import db from '../db.js'; // Certifique-se de que o caminho está correto
+import db from '../database/db.js'; // Certifique-se de que o caminho está correto
 
 // Função para criar uma nova pessoa
 export const createPerson = async (person) => {

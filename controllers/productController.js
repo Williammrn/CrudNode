@@ -1,4 +1,8 @@
-import db from '../database/db.js'; // Um nível acima da pasta controllers
+import * as productModel from '../models/productModel.js';
+
+import db from '../database/db.js';
+import * as pessoaModel from '../models/pessoaModel.js';
+
 // Assumindo que você tenha um arquivo de configuração do banco de dados
 
 // Função para criar um produto
