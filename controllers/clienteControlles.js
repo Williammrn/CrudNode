@@ -1,4 +1,4 @@
-import { Client } from 'pg-promise/typescript/pg-subset.js';
+
 import * as clienteModel from '../models/clienteModel.js';
 
 export const createCliente = async (req, res) => {
